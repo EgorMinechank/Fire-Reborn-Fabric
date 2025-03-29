@@ -18,8 +18,13 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.INFERIUM);
                         entries.add(ModItems.RAW_INFERIUM);
+
+
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);
+
+                        entries.add(ModBlocks.INFERIUM_ORE);
+                        entries.add(ModBlocks.INFERIUM_DEEPSLATE_ORE);
                     }).build());
 
 
