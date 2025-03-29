@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firereborn",
+	"version": "${version}",
+	"name": "Fire Reborn",
+	"description": "This is my first mod!",
+	"authors": [
+		"Egor_Minecaft"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/firereborn/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.em.firereborn.FireReborn"
+		],
+		"fabric-datagen": [
+			"net.em.firereborn.FireRebornDataGenerator"
+		],
+		"client": [
+			"net.em.firereborn.FireRebornClient"
+		]
+	},
+	"mixins": [
+		"firereborn.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
