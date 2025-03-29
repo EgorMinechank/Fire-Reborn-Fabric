@@ -8,8 +8,8 @@
 		"Egor_Minecaft"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/EgorMinechank",
+		"sources": "https://github.com/EgorMinechank/Fire-Reborn-Fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/firereborn/icon.png",
