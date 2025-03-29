@@ -1,6 +1,7 @@
 package net.em.firereborn;
 
 import net.em.firereborn.blocks.ModBlocks;
+import net.em.firereborn.item.ModItemGroups;
 import net.em.firereborn.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class FireReborn implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

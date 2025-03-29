@@ -36,8 +36,7 @@ public class ModBlocks {
         FireReborn.LOGGER.info("Registering Mod Blocks for " + FireReborn.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.INFERIUM_BLOCK);
-            entries.add(ModBlocks.RAW_INFERIUM_BLOCK);
+
         });
     }
 }

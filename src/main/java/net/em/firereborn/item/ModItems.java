@@ -20,8 +20,7 @@ public class ModItems {
         FireReborn.LOGGER.info("Registering Mod Items for " + FireReborn.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(INFERIUM);
-            entries.add(RAW_INFERIUM);
+
         });
     }
 }
