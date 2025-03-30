@@ -1,6 +1,6 @@
 package net.em.firereborn;
 
-import net.em.firereborn.blocks.ModBlocks;
+import net.em.firereborn.block.ModBlocks;
 import net.em.firereborn.item.ModItemGroups;
 import net.em.firereborn.item.ModItems;
 import net.fabricmc.api.ModInitializer;

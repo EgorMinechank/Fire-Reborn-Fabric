@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "I": {
+      "item": "firereborn:inferium_block"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "pattern": [
+    "AMS",
+    "MIM",
+    "SMC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firereborn:burner_block"
+  }
+}

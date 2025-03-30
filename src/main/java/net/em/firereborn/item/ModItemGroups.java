@@ -1,7 +1,7 @@
 package net.em.firereborn.item;
 
 import net.em.firereborn.FireReborn;
-import net.em.firereborn.blocks.ModBlocks;
+import net.em.firereborn.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -27,6 +27,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.INFERIUM_ORE);
                         entries.add(ModBlocks.INFERIUM_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.BURNER_BLOCK);
                     }).build());
 
 

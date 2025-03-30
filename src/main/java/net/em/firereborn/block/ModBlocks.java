@@ -1,6 +1,7 @@
-package net.em.firereborn.blocks;
+package net.em.firereborn.block;
 
 import net.em.firereborn.FireReborn;
+import net.em.firereborn.block.custom.BurnerBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -28,6 +29,9 @@ public class ModBlocks {
     public static final Block INFERIUM_DEEPSLATE_ORE = registerBlock("inferium_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block BURNER_BLOCK = registerBlock("burner_block",
+            new BurnerBlock(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {
