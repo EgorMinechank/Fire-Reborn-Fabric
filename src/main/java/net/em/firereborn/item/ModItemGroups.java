@@ -21,6 +21,10 @@ public class ModItemGroups {
 
                         entries.add(ModItems.BURNER);
 
+                        entries.add(ModItems.FIRE_APPLE);
+
+                        entries.add(ModItems.HOT_COAL);
+
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);

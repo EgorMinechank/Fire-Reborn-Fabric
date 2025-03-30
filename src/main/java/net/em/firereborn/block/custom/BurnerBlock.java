@@ -81,6 +81,14 @@ public class BurnerBlock extends Block {
             if(itemEntity.getStack().getItem() == Items.BAMBOO_BLOCK) {
                 itemEntity.setStack(new ItemStack(Items.COAL_BLOCK, itemEntity.getStack().getCount()));
             }
+
+            if(itemEntity.getStack().getItem() == Items.APPLE) {
+                itemEntity.setStack(new ItemStack(ModItems.FIRE_APPLE, itemEntity.getStack().getCount()));
+            }
+
+            if(itemEntity.getStack().getItem() == Items.COAL) {
+                itemEntity.setStack(new ItemStack(ModItems.HOT_COAL, itemEntity.getStack().getCount()));
+            }
         }
 
         super.onSteppedOn(world, pos, state, entity);

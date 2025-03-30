@@ -15,6 +15,10 @@ public class ModItems {
 
     public static final Item BURNER = registerItem("burner", new BurnerItem(new Item.Settings().maxDamage(48)));
 
+    public static final Item FIRE_APPLE = registerItem("fire_apple", new Item(new Item.Settings().food(ModFoodComponents.FIREAPPLE)));
+    public static final Item HOT_COAL = registerItem("hot_coal", new Item(new Item.Settings()));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FireReborn.MOD_ID, name), item);
     }
