@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.INFERIUM);
                         entries.add(ModItems.RAW_INFERIUM);
 
+                        entries.add(ModItems.BURNER);
+
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);
