@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "firereborn:inferium_block"
+      "item": "firereborn:raw_inferium_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "firereborn:inferium"
+    "id": "firereborn:raw_inferium"
   }
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "firereborn:inferium"
+      "item": "firereborn:raw_inferium"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "firereborn:inferium_block"
+    "id": "firereborn:raw_inferium_block"
   }
 }
