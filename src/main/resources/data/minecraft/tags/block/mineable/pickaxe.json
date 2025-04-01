@@ -4,6 +4,15 @@
     "firereborn:inferium_block",
     "firereborn:inferium_deepslate_ore",
     "firereborn:raw_inferium_block",
-    "firereborn:burner_block"
+    "firereborn:burner_block",
+    "firereborn:inferium_stairs",
+    "firereborn:inferium_slab",
+    "firereborn:inferium_button",
+    "firereborn:inferium_pressure_plate",
+    "firereborn:inferium_fence",
+    "firereborn:inferium_fence_gate",
+    "firereborn:inferium_wall",
+    "firereborn:inferium_door",
+    "firereborn:inferium_trapdoor"
   ]
 }

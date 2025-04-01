@@ -3,9 +3,7 @@ package net.em.firereborn.block;
 import net.em.firereborn.FireReborn;
 import net.em.firereborn.block.custom.BurnerBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -32,6 +30,30 @@ public class ModBlocks {
 
     public static final Block BURNER_BLOCK = registerBlock("burner_block",
             new BurnerBlock(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()));
+
+    public static final Block INFERIUM_STAIRS = registerBlock("inferium_stairs",
+            new StairsBlock(ModBlocks.INFERIUM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+    public static final Block INFERIUM_SLAB = registerBlock("inferium_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+
+    public static final Block INFERIUM_BUTTON = registerBlock("inferium_button",
+            new ButtonBlock(BlockSetType.IRON, 20, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool().noCollision()));
+    public static final Block INFERIUM_PRESSURE_PLATE = registerBlock("inferium_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+
+    public static final Block INFERIUM_FENCE = registerBlock("inferium_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+    public static final Block INFERIUM_FENCE_GATE = registerBlock("inferium_fence_gate",
+            new FenceGateBlock(WoodType.BAMBOO, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+    public static final Block INFERIUM_WALL = registerBlock("inferium_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool()));
+
+    public static final Block INFERIUM_DOOR = registerBlock("inferium_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool().nonOpaque()));
+    public static final Block INFERIUM_TRAPDOOR = registerBlock("inferium_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool().nonOpaque()));
+
 
 
     private static Block registerBlock(String name, Block block) {

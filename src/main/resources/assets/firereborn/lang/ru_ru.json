@@ -16,6 +16,19 @@
 
   "block.firereborn.burner_block": "Сжигающий блок",
 
+  "block.firereborn.inferium_stairs": "Инфериумные ступеньки",
+  "block.firereborn.inferium_slab": "Инфериумная плита",
+
+  "block.firereborn.inferium_pressure_plate": "Инфериумная нажимная плита",
+  "block.firereborn.inferium_button": "Инфериумная кнопка",
+
+  "block.firereborn.inferium_fence": "Инфериумный забор",
+  "block.firereborn.inferium_fence_gate": "Инфериумная калитка",
+  "block.firereborn.inferium_wall": "Инфериумная стена",
+
+  "block.firereborn.inferium_door": "Инфериумная дверь",
+  "block.firereborn.inferium_trapdoor": "Инфериумный люк",
+
 
   "itemgroup.firereborn.firereborn": "Fire Reborn",
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "firereborn:inferium"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ISI",
+    "ISI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firereborn:inferium_fence"
+  }
+}

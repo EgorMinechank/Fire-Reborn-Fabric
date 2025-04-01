@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "firereborn:inferium"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firereborn:inferium_slab"
+  }
+}

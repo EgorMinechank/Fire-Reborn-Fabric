@@ -33,6 +33,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INFERIUM_DEEPSLATE_ORE);
 
                         entries.add(ModBlocks.BURNER_BLOCK);
+
+                        entries.add(ModBlocks.INFERIUM_STAIRS);
+                        entries.add(ModBlocks.INFERIUM_SLAB);
+
+                        entries.add(ModBlocks.INFERIUM_BUTTON);
+                        entries.add(ModBlocks.INFERIUM_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.INFERIUM_FENCE);
+                        entries.add(ModBlocks.INFERIUM_FENCE_GATE);
+                        entries.add(ModBlocks.INFERIUM_WALL);
+
+                        entries.add(ModBlocks.INFERIUM_DOOR);
+                        entries.add(ModBlocks.INFERIUM_TRAPDOOR);
                     }).build());
 
 

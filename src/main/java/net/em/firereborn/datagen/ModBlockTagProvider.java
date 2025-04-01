@@ -20,13 +20,43 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INFERIUM_BLOCK)
                 .add(ModBlocks.INFERIUM_DEEPSLATE_ORE)
                 .add(ModBlocks.RAW_INFERIUM_BLOCK)
-                .add(ModBlocks.BURNER_BLOCK);
+                .add(ModBlocks.BURNER_BLOCK)
+
+                .add(ModBlocks.INFERIUM_STAIRS)
+                .add(ModBlocks.INFERIUM_SLAB)
+
+                .add(ModBlocks.INFERIUM_BUTTON)
+                .add(ModBlocks.INFERIUM_PRESSURE_PLATE)
+
+                .add(ModBlocks.INFERIUM_FENCE)
+                .add(ModBlocks.INFERIUM_FENCE_GATE)
+                .add(ModBlocks.INFERIUM_WALL)
+
+                .add(ModBlocks.INFERIUM_DOOR)
+                .add(ModBlocks.INFERIUM_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.INFERIUM_ORE)
                 .add(ModBlocks.INFERIUM_BLOCK)
                 .add(ModBlocks.INFERIUM_DEEPSLATE_ORE)
                 .add(ModBlocks.RAW_INFERIUM_BLOCK)
-                .add(ModBlocks.BURNER_BLOCK);
+                .add(ModBlocks.BURNER_BLOCK)
+
+                .add(ModBlocks.INFERIUM_STAIRS)
+                .add(ModBlocks.INFERIUM_SLAB)
+
+                .add(ModBlocks.INFERIUM_BUTTON)
+                .add(ModBlocks.INFERIUM_PRESSURE_PLATE)
+
+                .add(ModBlocks.INFERIUM_FENCE)
+                .add(ModBlocks.INFERIUM_FENCE_GATE)
+                .add(ModBlocks.INFERIUM_WALL)
+
+                .add(ModBlocks.INFERIUM_DOOR)
+                .add(ModBlocks.INFERIUM_TRAPDOOR);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.INFERIUM_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.INFERIUM_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INFERIUM_WALL);
     }
 }

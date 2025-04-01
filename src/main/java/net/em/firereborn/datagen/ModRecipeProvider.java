@@ -40,14 +40,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_INFERIUM, 9)
-                .input(ModBlocks.RAW_INFERIUM_BLOCK)
-                .criterion(hasItem(ModItems.RAW_INFERIUM), conditionsFromItem(ModItems.RAW_INFERIUM))
-                .offerTo(exporter, Identifier.of(FireReborn.MOD_ID, "raw_inferium_from_raw_inferium_block"));
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.INFERIUM, 9)
-                .input(ModBlocks.INFERIUM_BLOCK)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INFERIUM_STAIRS)
+                .pattern("I  ")
+                .pattern("II ")
+                .pattern("III")
+                .input('I', ModItems.INFERIUM)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
-                .offerTo(exporter, Identifier.of(FireReborn.MOD_ID, "inferium_from_inferium_block"));
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INFERIUM_SLAB)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("III")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INFERIUM_BUTTON)
+                .input(ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                        .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INFERIUM_PRESSURE_PLATE)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("II ")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INFERIUM_FENCE)
+                .pattern("   ")
+                .pattern("ISI")
+                .pattern("ISI")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INFERIUM_FENCE_GATE)
+                .pattern("   ")
+                .pattern("SIS")
+                .pattern("SIS")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INFERIUM_WALL)
+                .pattern("   ")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INFERIUM_DOOR)
+                .pattern("II ")
+                .pattern("II ")
+                .pattern("II ")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INFERIUM_TRAPDOOR)
+                .pattern("   ")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
     }
 }

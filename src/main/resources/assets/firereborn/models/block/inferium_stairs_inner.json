@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "firereborn:block/inferium_block",
+    "side": "firereborn:block/inferium_block",
+    "top": "firereborn:block/inferium_block"
+  }
+}

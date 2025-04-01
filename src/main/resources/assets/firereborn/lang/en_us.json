@@ -16,6 +16,19 @@
 
   "block.firereborn.burner_block": "Burner Block",
 
+  "block.firereborn.inferium_stairs": "Inferium Stairs",
+  "block.firereborn.inferium_slab": "Inferium Slab",
+
+  "block.firereborn.inferium_button": "Inferium Button",
+  "block.firereborn.inferium_pressure_plate": "Inferium Pressure Plate",
+
+  "block.firereborn.inferium_fence": "Inferium Fence",
+  "block.firereborn.inferium_fence_gate": "Inferium Fence Gate",
+  "block.firereborn.inferium_wall": "Inferium Wall",
+
+  "block.firereborn.inferium_door": "Inferium Door",
+  "block.firereborn.inferium_trapdoor": "Inferium Trapdoor",
+
 
   "itemgroup.firereborn.firereborn": "Fire Reborn",
 

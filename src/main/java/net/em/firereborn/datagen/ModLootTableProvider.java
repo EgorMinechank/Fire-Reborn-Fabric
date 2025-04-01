@@ -32,7 +32,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_INFERIUM_BLOCK);
         addDrop(ModBlocks.BURNER_BLOCK);
 
+        addDrop(ModBlocks.INFERIUM_STAIRS);
+        addDrop(ModBlocks.INFERIUM_SLAB, slabDrops(ModBlocks.INFERIUM_SLAB));
 
+        addDrop(ModBlocks.INFERIUM_BUTTON);
+        addDrop(ModBlocks.INFERIUM_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.INFERIUM_FENCE);
+        addDrop(ModBlocks.INFERIUM_FENCE_GATE);
+        addDrop(ModBlocks.INFERIUM_WALL);
+
+        addDrop(ModBlocks.INFERIUM_DOOR, doorDrops(ModBlocks.INFERIUM_DOOR));
+        addDrop(ModBlocks.INFERIUM_TRAPDOOR);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

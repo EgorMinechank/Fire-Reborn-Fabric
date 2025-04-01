@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "firereborn:block/inferium_slab"
+    },
+    "type=double": {
+      "model": "firereborn:block/inferium_block"
+    },
+    "type=top": {
+      "model": "firereborn:block/inferium_slab_top"
+    }
+  }
+}

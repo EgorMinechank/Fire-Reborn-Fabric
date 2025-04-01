@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "firereborn:block/inferium_door_bottom",
+    "top": "firereborn:block/inferium_door_top"
+  }
+}

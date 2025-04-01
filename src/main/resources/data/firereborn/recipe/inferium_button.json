@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "firereborn:inferium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "firereborn:inferium_button"
+  }
+}

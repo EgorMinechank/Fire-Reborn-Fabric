@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": {
+      "item": "firereborn:inferium"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "II "
+  ],
+  "result": {
+    "count": 1,
+    "id": "firereborn:inferium_pressure_plate"
+  }
+}
