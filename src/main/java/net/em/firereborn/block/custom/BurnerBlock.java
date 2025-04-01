@@ -1,6 +1,7 @@
 package net.em.firereborn.block.custom;
 
 import net.em.firereborn.item.ModItems;
+import net.em.firereborn.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gui.screen.Screen;
@@ -36,7 +37,7 @@ public class BurnerBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getStack().getItem() == Items.AMETHYST_BLOCK) {
+            if(isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(ModItems.INFERIUM, itemEntity.getStack().getCount()));
             }
 
@@ -98,6 +99,10 @@ public class BurnerBlock extends Block {
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
