@@ -17,5 +17,14 @@
   "block.firereborn.burner_block": "Сжигающий блок",
 
 
-  "itemgroup.firereborn.firereborn": "Fire Reborn"
+  "itemgroup.firereborn.firereborn": "Fire Reborn",
+
+
+  "tooltip.firereborn.burner_block.tooltip": "Бросьте предмет на верхнюю грань блока\nИ этот предмет превратиться в другой\n\nВсе магические превращения:\n - §dОсколок аметиста §r в §6 Инфериум§r\n - §cЯблоко §rв §6Огненное §cЯблоко§r\n - §8Уголь §rв §6Горячий §8Уголь§r",
+  "tooltip.firereborn.shift.up": "Нажмите §e[Shift] §rдля большей информации",
+  "tooltip.firereborn.burner.shift.down": "Может превратить любой §2тип дерева §rв Угольный блок(Не учитывая Адские деревья)",
+  "tooltip.firereborn.fire_apple": "Не кусать! Нажмите §e[Alt]§r для технической информации.",
+  "tooltip.firereborn.fire_apple.alt.down": "Даёт эффект §6§l§oогнестойкости§r на §c30 секунд§r.",
+  "tooltip.firereborn.hot_coal": "Очень горячо! Не §6обожгись§r! Нажмите §e[Alt]§r для технической информации.",
+  "tooltip.firereborn.hot_coal.alt.down": "Переплавляет §c16§r предметов(горит §c3200§r тиков)"
 }

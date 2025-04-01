@@ -17,5 +17,14 @@
   "block.firereborn.burner_block": "Burner Block",
 
 
-  "itemgroup.firereborn.firereborn": "Fire Reborn"
+  "itemgroup.firereborn.firereborn": "Fire Reborn",
+
+
+  "tooltip.firereborn.burner_block.tooltip": "Drop the item onto the top of the block\nAnd item transform to another item\n\nAll magic transforms:\n - §dAmethyst shard §rto §6 Inferium§r\n - §cApple §rto §6Fire §cApple§r\n - §8Coal §rto §6Hot §8Coal§r",
+  "tooltip.firereborn.shift.up": "Press §e[Shift] §rfor more information",
+  "tooltip.firereborn.burner.shift.down": "Can transforms any §2wood types §rto Coal block(Nether woods don't included)",
+  "tooltip.firereborn.fire_apple": "Don't bite! Press §e[Alt]§r for technical information.",
+  "tooltip.firereborn.fire_apple.alt.down": "Gives §6§l§ofire resistance§r effect for §c30 seconds§r.",
+  "tooltip.firereborn.hot_coal": "Very hot! Don't get §6burned§r! Press §e[Alt]§r for technical information.",
+  "tooltip.firereborn.hot_coal.alt.down": "Melts §c16§r items(lit for §c3200§r ticks)"
 }
