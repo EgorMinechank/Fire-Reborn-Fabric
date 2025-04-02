@@ -1,5 +1,6 @@
 package net.em.firereborn.item.custom;
 
+import net.em.firereborn.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -51,8 +52,9 @@ public class BurnerItem extends Item {
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS);
-            }
 
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+            }
         }
 
         return ActionResult.SUCCESS;
@@ -64,6 +66,10 @@ public class BurnerItem extends Item {
             tooltip.add(Text.translatable("tooltip.firereborn.burner.shift.down"));
         } else {
             tooltip.add(Text.translatable("tooltip.firereborn.shift.up"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Burned at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);

@@ -108,7 +108,13 @@ public class BurnerBlock extends Block {
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
         if(Screen.hasShiftDown()) {
-            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.1"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.2"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.3"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.4"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.5"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.6"));
+            tooltip.add(Text.translatable("tooltip.firereborn.burner_block.tooltip.7"));
         } else {
             tooltip.add(Text.translatable("tooltip.firereborn.shift.up"));
         }

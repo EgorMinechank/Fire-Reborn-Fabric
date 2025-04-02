@@ -1,6 +1,7 @@
 package net.em.firereborn;
 
 import net.em.firereborn.block.ModBlocks;
+import net.em.firereborn.component.ModDataComponentTypes;
 import net.em.firereborn.item.ModItemGroups;
 import net.em.firereborn.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,8 @@ public class FireReborn implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.HOT_COAL, 3200);
 	}

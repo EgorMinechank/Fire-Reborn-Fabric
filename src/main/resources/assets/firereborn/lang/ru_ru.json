@@ -35,7 +35,13 @@
   "itemgroup.firereborn.firereborn": "Fire Reborn",
 
 
-  "tooltip.firereborn.burner_block.tooltip": "Бросьте предмет на верхнюю грань блока\nИ этот предмет превратиться в другой\n\nВсе магические превращения:\n - §dОсколок аметиста §r в §6 Инфериум§r\n - §cЯблоко §rв §6Огненное §cЯблоко§r\n - §8Уголь §rв §6Горячий §8Уголь§r",
+  "tooltip.firereborn.burner_block.tooltip.1": "Бросьте предмет на верхнюю грань блока",
+  "tooltip.firereborn.burner_block.tooltip.2": "И этот предмет превратиться в другой",
+  "tooltip.firereborn.burner_block.tooltip.3": "",
+  "tooltip.firereborn.burner_block.tooltip.4": "Некоторые магические превращения:",
+  "tooltip.firereborn.burner_block.tooltip.5": " - §dОсколок аметиста §r в §6 Инфериум",
+  "tooltip.firereborn.burner_block.tooltip.6": " - §cЯблоко §rв §6Огненное §cЯблоко§r",
+  "tooltip.firereborn.burner_block.tooltip.7": " - §8Уголь §rв §6Горячий §8Уголь§r",
   "tooltip.firereborn.shift.up": "Нажмите §e[Shift] §rдля большей информации",
   "tooltip.firereborn.burner.shift.down": "Может превратить любой §2тип дерева §rв Угольный блок(Не учитывая Адские деревья)",
   "tooltip.firereborn.fire_apple": "Не кусать! Нажмите §e[Alt]§r для технической информации.",
