@@ -2,6 +2,7 @@ package net.em.firereborn.block;
 
 import net.em.firereborn.FireReborn;
 import net.em.firereborn.block.custom.BurnerBlock;
+import net.em.firereborn.block.custom.InferiumLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -53,6 +54,10 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool().nonOpaque()));
     public static final Block INFERIUM_TRAPDOOR = registerBlock("inferium_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(5.0f, 6.0f).requiresTool().nonOpaque()));
+
+    public static final Block INFERIUMED_LAMP = registerBlock("inferiumed_lamp",
+            new InferiumLampBlock(AbstractBlock.Settings.create()
+                    .strength(0.3f, 0.3f).requiresTool().luminance(state -> state.get(InferiumLampBlock.CLICKED) ? 15 : 0)));
 
 
 

@@ -46,6 +46,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.INFERIUM_DOOR);
                         entries.add(ModBlocks.INFERIUM_TRAPDOOR);
+
+                        entries.add(ModBlocks.INFERIUMED_LAMP);
                     }).build());
 
 

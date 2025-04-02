@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-01T17:10:39.6288409	Fire Reborn/Block Loot Tables
+// 1.21.1	2025-04-02T13:22:31.6766776	Fire Reborn/Block Loot Tables
 b35c5e32df2f924615912b15b3650fa34ba45f3b data\firereborn\loot_table\blocks\inferium_deepslate_ore.json
 a59f46f437d7e717a482aa2ded7e3585e06dbebd data\firereborn\loot_table\blocks\inferium_pressure_plate.json
 afe5cebad0dbe54a70a0184be7116dbf2a2fd5c9 data\firereborn\loot_table\blocks\burner_block.json
@@ -12,4 +12,5 @@ e713adb0b2791c3f04756b139428935533060591 data\firereborn\loot_table\blocks\infer
 77a9e095e5e7e233fc5aa19792a4f1e57b4ded6d data\firereborn\loot_table\blocks\inferium_door.json
 83814fa3347d4fac5f1868c6a24f6e735401a85e data\firereborn\loot_table\blocks\raw_inferium_block.json
 78530f1adfaf9b73346a5b60cad4295f8d9c7b82 data\firereborn\loot_table\blocks\inferium_fence_gate.json
+b93fb536ebe809f6a01749cf07fb464d18ee55e3 data\firereborn\loot_table\blocks\inferiumed_lamp.json
 71fc1da8cb8a61f16bcd4e33249db7a64db5c348 data\firereborn\loot_table\blocks\inferium_wall.json

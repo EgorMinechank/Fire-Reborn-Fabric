@@ -100,5 +100,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', ModItems.INFERIUM)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.INFERIUMED_LAMP)
+                .pattern(" R ")
+                .pattern("RIR")
+                .pattern(" R ")
+                .input('I', ModItems.INFERIUM).input('R', Items.REDSTONE_LAMP)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
     }
 }

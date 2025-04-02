@@ -1,12 +1,12 @@
 package net.em.firereborn.datagen;
 
 import net.em.firereborn.block.ModBlocks;
+import net.em.firereborn.block.custom.InferiumLampBlock;
 import net.em.firereborn.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -33,6 +33,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.INFERIUM_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.INFERIUM_TRAPDOOR);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.INFERIUMED_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.INFERIUMED_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.INFERIUMED_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(InferiumLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override

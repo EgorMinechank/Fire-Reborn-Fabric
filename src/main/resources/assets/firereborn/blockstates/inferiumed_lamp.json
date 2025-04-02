@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "firereborn:block/inferiumed_lamp"
+    },
+    "clicked=true": {
+      "model": "firereborn:block/inferiumed_lamp_on"
+    }
+  }
+}
