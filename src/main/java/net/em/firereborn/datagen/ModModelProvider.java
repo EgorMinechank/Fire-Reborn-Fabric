@@ -55,5 +55,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.INFERIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.INFERIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.INFERIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.INFERIUM_HAMMER, Models.HANDHELD);
     }
 }

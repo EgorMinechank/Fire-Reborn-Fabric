@@ -2,6 +2,7 @@ package net.em.firereborn.item;
 
 import net.em.firereborn.FireReborn;
 import net.em.firereborn.item.custom.BurnerItem;
+import net.em.firereborn.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.*;
@@ -59,6 +60,10 @@ public class ModItems {
     public static final Item INFERIUM_HOE = registerItem("inferium_hoe",
             new HoeItem(ModToolMaterials.INFERIUM, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.INFERIUM, 0, -3.0f))));
+
+    public static final Item INFERIUM_HAMMER = registerItem("inferium_hammer",
+            new HammerItem(ModToolMaterials.INFERIUM, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.INFERIUM, 7f, -3.5f))));
 
 
     private static Item registerItem(String name, Item item) {

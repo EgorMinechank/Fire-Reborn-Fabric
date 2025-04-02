@@ -30,6 +30,8 @@ public class ModItemGroups {
                         entries.add(ModItems.INFERIUM_AXE);
                         entries.add(ModItems.INFERIUM_HOE);
 
+                        entries.add(ModItems.INFERIUM_HAMMER);
+
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);

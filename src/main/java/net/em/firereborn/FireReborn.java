@@ -4,8 +4,10 @@ import net.em.firereborn.block.ModBlocks;
 import net.em.firereborn.component.ModDataComponentTypes;
 import net.em.firereborn.item.ModItemGroups;
 import net.em.firereborn.item.ModItems;
+import net.em.firereborn.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,5 +26,7 @@ public class FireReborn implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.HOT_COAL, 3200);
+
+		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }
