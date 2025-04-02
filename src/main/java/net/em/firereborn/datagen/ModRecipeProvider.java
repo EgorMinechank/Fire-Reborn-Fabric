@@ -144,5 +144,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', ModItems.INFERIUM).input('S', Items.STICK)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_HELMET)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_CHESTPLATE)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_LEGGINGS)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_BOOTS)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
     }
 }

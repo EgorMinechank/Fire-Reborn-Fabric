@@ -65,6 +65,20 @@ public class ModItems {
             new HammerItem(ModToolMaterials.INFERIUM, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.INFERIUM, 7f, -3.5f))));
 
+    public static final Item INFERIUM_HELMET = registerItem("inferium_helmet",
+            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
+    public static final Item INFERIUM_CHESTPLATE = registerItem("inferium_chestplate",
+            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
+    public static final Item INFERIUM_LEGGINGS = registerItem("inferium_leggings",
+            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
+    public static final Item INFERIUM_BOOTS = registerItem("inferium_boots",
+            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FireReborn.MOD_ID, name), item);

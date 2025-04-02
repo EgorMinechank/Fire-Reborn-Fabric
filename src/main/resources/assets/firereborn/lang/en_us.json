@@ -15,6 +15,11 @@
 
   "item.firereborn.inferium_hammer": "Inferium Hammer",
 
+  "item.firereborn.inferium_helmet": "Inferium Helmet",
+  "item.firereborn.inferium_chestplate": "Inferium Chestplate",
+  "item.firereborn.inferium_leggings": "Inferium Leggings",
+  "item.firereborn.inferium_boots": "Inferium Boots",
+
 
   "block.firereborn.inferium_block": "Inferium Block",
   "block.firereborn.raw_inferium_block": "Block of Raw Inferium",
