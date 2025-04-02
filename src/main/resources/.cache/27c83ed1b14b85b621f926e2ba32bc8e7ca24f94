@@ -1,6 +1,7 @@
-// 1.21.1	2025-04-02T13:22:31.6776855	Fire Reborn/Tags for minecraft:block
+// 1.21.1	2025-04-02T16:08:01.5680474	Fire Reborn/Tags for minecraft:block
+2fba5df3696e3e15a4971007eb239675e8964c7e data\firereborn\tags\block\needs_inferium_tool.json
 e1f5363e01598edc1906b7872049383bfc91dc70 data\minecraft\tags\block\fences.json
 c90ece491897baa7a3e71a66c89ce911534b25fd data\minecraft\tags\block\walls.json
 6b9d83bea21be70ec242da1cea7381df5d2315b0 data\minecraft\tags\block\mineable\pickaxe.json
+8a5730041a26908c0aff009ec6a6159d62308dcc data\minecraft\tags\block\needs_iron_tool.json
 8bfc9ada7bdbff1cbc60d67f99c810e6500203c2 data\minecraft\tags\block\fence_gates.json
-6b9d83bea21be70ec242da1cea7381df5d2315b0 data\minecraft\tags\block\needs_iron_tool.json

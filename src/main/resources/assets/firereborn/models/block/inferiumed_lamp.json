@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "firereborn:block/inferiumed_lamp_off"
+    "all": "firereborn:block/inferiumed_lamp"
   }
 }

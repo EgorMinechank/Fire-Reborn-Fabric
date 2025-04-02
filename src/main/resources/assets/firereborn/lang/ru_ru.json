@@ -7,6 +7,12 @@
   "item.firereborn.fire_apple": "Огненное яблоко",
   "item.firereborn.hot_coal": "Горячий уголь",
 
+  "item.firereborn.inferium_sword": "Инфериумный меч",
+  "item.firereborn.inferium_axe": "Инфериумный топор",
+  "item.firereborn.inferium_pickaxe": "Инфериумная кирка",
+  "item.firereborn.inferium_shovel": "Инфериумная лопата",
+  "item.firereborn.inferium_hoe": "Инфериумная мотыга",
+
 
   "block.firereborn.inferium_block": "Блок Инфериума",
   "block.firereborn.raw_inferium_block": "Блок сырого Инфериума",

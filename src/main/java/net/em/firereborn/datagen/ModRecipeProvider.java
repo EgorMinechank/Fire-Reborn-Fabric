@@ -108,5 +108,41 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', ModItems.INFERIUM).input('R', Items.REDSTONE_LAMP)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.INFERIUM_SWORD)
+                .pattern(" I ")
+                .pattern(" I ")
+                .pattern(" S ")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.INFERIUM_PICKAXE)
+                .pattern("III")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.INFERIUM_SHOVEL)
+                .pattern(" I ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.INFERIUM_AXE)
+                .pattern("II ")
+                .pattern("IS ")
+                .pattern(" S ")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.INFERIUM_HOE)
+                .pattern("II ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', ModItems.INFERIUM).input('S', Items.STICK)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter);
     }
 }

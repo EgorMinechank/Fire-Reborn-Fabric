@@ -9,7 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> TRANSFORMABLE_BLOCKS = createTag("transformable_blocks");
+        public static final TagKey<Block> NEEDS_INFERIUM_TOOL = createTag("needs_inferium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_INFERIUM_TOOL = createTag("incorrect_for_inferium_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(FireReborn.MOD_ID, name));

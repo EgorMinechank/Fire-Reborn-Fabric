@@ -1,6 +1,7 @@
 package net.em.firereborn.datagen;
 
 import net.em.firereborn.block.ModBlocks;
+import net.em.firereborn.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -39,7 +40,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INFERIUM_ORE)
                 .add(ModBlocks.INFERIUM_BLOCK)
                 .add(ModBlocks.INFERIUM_DEEPSLATE_ORE)
-                .add(ModBlocks.RAW_INFERIUM_BLOCK)
                 .add(ModBlocks.BURNER_BLOCK)
 
                 .add(ModBlocks.INFERIUM_STAIRS)
@@ -58,5 +58,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.INFERIUM_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.INFERIUM_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INFERIUM_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_INFERIUM_TOOL)
+                .add(ModBlocks.RAW_INFERIUM_BLOCK)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

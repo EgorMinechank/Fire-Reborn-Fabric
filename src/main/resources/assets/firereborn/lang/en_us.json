@@ -7,6 +7,12 @@
   "item.firereborn.fire_apple": "Fire Apple",
   "item.firereborn.hot_coal": "Hot Coal",
 
+  "item.firereborn.inferium_sword": "Inferium Sword",
+  "item.firereborn.inferium_axe": "Inferium Axe",
+  "item.firereborn.inferium_pickaxe": "Inferium Pickaxe",
+  "item.firereborn.inferium_shovel": "Inferium Shovel",
+  "item.firereborn.inferium_hoe": "Inferium Hoe",
+
 
   "block.firereborn.inferium_block": "Inferium Block",
   "block.firereborn.raw_inferium_block": "Block of Raw Inferium",

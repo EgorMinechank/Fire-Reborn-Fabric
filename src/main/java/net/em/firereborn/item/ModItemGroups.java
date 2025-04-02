@@ -22,8 +22,13 @@ public class ModItemGroups {
                         entries.add(ModItems.BURNER);
 
                         entries.add(ModItems.FIRE_APPLE);
-
                         entries.add(ModItems.HOT_COAL);
+
+                        entries.add(ModItems.INFERIUM_SWORD);
+                        entries.add(ModItems.INFERIUM_PICKAXE);
+                        entries.add(ModItems.INFERIUM_SHOVEL);
+                        entries.add(ModItems.INFERIUM_AXE);
+                        entries.add(ModItems.INFERIUM_HOE);
 
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);

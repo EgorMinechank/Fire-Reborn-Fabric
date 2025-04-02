@@ -1,2 +1,7 @@
-// 1.21.1	2025-04-02T13:22:31.6745533	Fire Reborn/Tags for minecraft:item
+// 1.21.1	2025-04-02T16:08:01.5655229	Fire Reborn/Tags for minecraft:item
 6bebd9f6848ce966d7f8089c000430deb8aec8e7 data\firereborn\tags\item\transformable_items.json
+106dfaf45c360d9b5d0defa48179a1d5e43f48c4 data\minecraft\tags\item\swords.json
+f8382b13ed0fc09327a7ea9378fed21cd4757a5c data\minecraft\tags\item\shovels.json
+3c35cb1fb5766b535c4adc75689eb7c055b5e9b3 data\minecraft\tags\item\pickaxes.json
+559351649cef6ed70495b59ac939ba98b9234999 data\minecraft\tags\item\hoes.json
+8d19ff18442b985ad8d4b8a5b7365b5d66f55c38 data\minecraft\tags\item\axes.json
