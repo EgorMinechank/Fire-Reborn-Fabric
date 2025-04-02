@@ -3,6 +3,7 @@ package net.em.firereborn.item;
 import net.em.firereborn.FireReborn;
 import net.em.firereborn.item.custom.BurnerItem;
 import net.em.firereborn.item.custom.HammerItem;
+import net.em.firereborn.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.*;
@@ -66,16 +67,16 @@ public class ModItems {
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.INFERIUM, 7f, -3.5f))));
 
     public static final Item INFERIUM_HELMET = registerItem("inferium_helmet",
-            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
     public static final Item INFERIUM_CHESTPLATE = registerItem("inferium_chestplate",
-            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
     public static final Item INFERIUM_LEGGINGS = registerItem("inferium_leggings",
-            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
     public static final Item INFERIUM_BOOTS = registerItem("inferium_boots",
-            new ArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
 
 
