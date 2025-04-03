@@ -7,12 +7,12 @@
     }
   },
   "pattern": [
-    "   ",
     "I I",
+    "III",
     "I I"
   ],
   "result": {
     "count": 1,
-    "id": "firereborn:inferium_boots"
+    "id": "firereborn:inferium_horse_armor"
   }
 }

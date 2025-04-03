@@ -22,6 +22,8 @@
 
   "item.firereborn.inferium_horse_armor": "Инфериумная конская броня",
 
+  "item.firereborn.infernum_armor_trim_smithing_template": "Кузнечный шаблон",
+
 
   "block.firereborn.inferium_block": "Блок Инфериума",
   "block.firereborn.raw_inferium_block": "Блок сырого Инфериума",
@@ -64,5 +66,9 @@
   "tooltip.firereborn.hot_coal": "Очень горячо! Не §6обожгись§r! Нажмите §e[Alt]§r для технической информации.",
   "tooltip.firereborn.hot_coal.alt.down": "Переплавляет §c16§r предметов(горит §c3200§r тиков)",
   "tooltip.firereborn.inferium_armor.alt.down": "Даёт эфеекты §e§l§oСпешки§r и §l§oСвечения§r при полностью надетом комплекте брони.",
-  "tooltip.firereborn.inferium_armor": "Очень §6горячо§r, но не защищает от огня! Нажмите §e[Alt]§r для технической информации."
+  "tooltip.firereborn.inferium_armor": "Очень §6горячо§r, но не защищает от огня! Нажмите §e[Alt]§r для технической информации.",
+
+
+  "trim_pattern.firereborn.infernum": "Отделка Инфернум",
+  "trim_material.firereborn.inferium": "Инфериумная"
 }

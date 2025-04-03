@@ -38,5 +38,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.INFERIUM_CHESTPLATE)
                 .add(ModItems.INFERIUM_LEGGINGS)
                 .add(ModItems.INFERIUM_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.INFERIUM);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.INFERNUM_SMITHING_TEMPLATE);
     }
 }

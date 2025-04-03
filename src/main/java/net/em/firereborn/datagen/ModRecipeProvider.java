@@ -146,11 +146,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_HELMET)
+                .pattern("   ")
                 .pattern("III")
                 .pattern("I I")
                 .input('I', ModItems.INFERIUM)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
-                .offerTo(exporter);
+                .offerTo(exporter, "inferium_helmet");
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_CHESTPLATE)
                 .pattern("I I")
                 .pattern("III")
@@ -166,10 +167,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_BOOTS)
+                .pattern("   ")
                 .pattern("I I")
                 .pattern("I I")
                 .input('I', ModItems.INFERIUM)
                 .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
+                .offerTo(exporter, "inferium_boots");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.INFERIUM_HORSE_ARMOR)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.INFERIUM)
+                .criterion(hasItem(ModItems.INFERIUM), conditionsFromItem(ModItems.INFERIUM))
                 .offerTo(exporter);
+
+        offerSmithingTrimRecipe(exporter, ModItems.INFERNUM_SMITHING_TEMPLATE, Identifier.of(FireReborn.MOD_ID, "infernum"));
     }
 }

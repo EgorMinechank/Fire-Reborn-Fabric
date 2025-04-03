@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "firereborn:inferium_helmet"
+        "recipe": "minecraft:inferium_helmet"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "firereborn:inferium_helmet"
+      "minecraft:inferium_helmet"
     ]
   }
 }

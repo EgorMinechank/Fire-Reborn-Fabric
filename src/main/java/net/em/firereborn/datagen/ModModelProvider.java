@@ -65,5 +65,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.INFERIUM_BOOTS));
 
         itemModelGenerator.register(ModItems.INFERIUM_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.INFERNUM_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

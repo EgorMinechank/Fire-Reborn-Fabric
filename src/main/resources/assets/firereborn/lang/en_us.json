@@ -22,6 +22,8 @@
 
   "item.firereborn.inferium_horse_armor": "Inferium Horse Armor",
 
+  "item.firereborn.infernum_armor_trim_smithing_template": "Infernum Trim Template",
+
 
   "block.firereborn.inferium_block": "Inferium Block",
   "block.firereborn.raw_inferium_block": "Block of Raw Inferium",
@@ -64,5 +66,9 @@
   "tooltip.firereborn.hot_coal": "Very hot! Don't get §6burned§r! Press §e[Alt]§r for technical information.",
   "tooltip.firereborn.hot_coal.alt.down": "Melts §c16§r items(lit for §c3200§r ticks)",
   "tooltip.firereborn.inferium_armor.alt.down": "Gives effects of §e§l§oHast§r and §l§loGlowing§r if you in full set of armor.",
-  "tooltip.firereborn.inferium_armor": "Very §6hot§r but you don't survive in fire! Press §e[Alt]§r for technical information."
+  "tooltip.firereborn.inferium_armor": "Very §6hot§r but you don't survive in fire! Press §e[Alt]§r for technical information.",
+
+
+  "trim_pattern.firereborn.infernum": "Infernum Armor Trim",
+  "trim_material.firereborn.inferium": "Inferium Material"
 }

@@ -39,6 +39,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.INFERIUM_HORSE_ARMOR);
 
+                        entries.add(ModItems.INFERNUM_SMITHING_TEMPLATE);
+
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);

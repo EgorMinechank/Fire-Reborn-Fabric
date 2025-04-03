@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:inferium_boots"
+        "recipe": "firereborn:inferium_horse_armor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:inferium_boots"
+      "firereborn:inferium_horse_armor"
     ]
   }
 }

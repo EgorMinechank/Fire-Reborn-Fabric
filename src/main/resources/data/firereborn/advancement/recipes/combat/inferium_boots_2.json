@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:inferium_boots"
+        "recipe": "minecraft:inferium_boots_2"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:inferium_boots"
+      "minecraft:inferium_boots_2"
     ]
   }
 }

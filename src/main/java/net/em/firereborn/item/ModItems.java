@@ -10,6 +10,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -125,6 +126,9 @@ public class ModItems {
 
     public static final Item INFERIUM_HORSE_ARMOR = registerItem("inferium_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
+    public static final Item INFERNUM_SMITHING_TEMPLATE = registerItem("infernum_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(FireReborn.MOD_ID, "infernum"), FeatureFlags.VANILLA));
 
 
 

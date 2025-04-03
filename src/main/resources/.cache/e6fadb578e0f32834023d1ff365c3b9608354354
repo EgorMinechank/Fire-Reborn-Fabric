@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-03T14:23:35.7285066	Fire Reborn/Model Definitions
+// 1.21.1	2025-04-03T19:01:01.3312643	Fire Reborn/Model Definitions
 6411f0adaed69e6b70d7fa69f50a8b47d5684153 assets\firereborn\models\item\inferium_leggings_iron_trim.json
 d754dd9a0f646727828e83892f2a6e15b844bccb assets\firereborn\models\item\inferium_stairs.json
 24d5613bc3eeceda93b75a5c44ff39ccd6711e10 assets\firereborn\models\item\inferium_helmet_gold_trim.json
@@ -39,8 +39,8 @@ c135968fb1ed229e7ccfecf90b6ce4b3a16e0601 assets\firereborn\models\block\inferium
 ce3230e60ada9d31c16f953ebd5acd554f9f1295 assets\firereborn\models\item\raw_inferium.json
 2a300ebd48b0133bc7da8c4f0fe1aedba936a268 assets\firereborn\blockstates\inferium_stairs.json
 62899a8f28f443df48d69f10d722328f39fc307a assets\firereborn\models\block\inferium_door_top_right.json
-e0684d456455e2d0491f7a8d0b385e72133e2d32 assets\firereborn\models\item\inferium_deepslate_ore.json
 b3890a059cc3863e7982ef9d1de42fa293018909 assets\firereborn\models\item\inferium_helmet_redstone_trim.json
+e0684d456455e2d0491f7a8d0b385e72133e2d32 assets\firereborn\models\item\inferium_deepslate_ore.json
 0e3d8d8da0536b0e156b884e214f57c1e91822ac assets\firereborn\models\block\inferium_wall_post.json
 ad14073b88aae9c092cb28515de5acafc06ca604 assets\firereborn\models\item\inferium_fence_gate.json
 e239d01ce38771dc40771f46135975cc4c5155d8 assets\firereborn\models\item\inferium_chestplate_copper_trim.json
@@ -49,6 +49,7 @@ bcde544af251f9157e21e09238e7701b8bd58152 assets\firereborn\models\block\inferium
 4125852d416d92d972694555453c0d075a8f8c88 assets\firereborn\models\item\burner_block.json
 ec540be887909c2057f9fac84f6826509cab033f assets\firereborn\models\item\inferium_boots_iron_trim.json
 d0c177d7eacdcd2717ef3d653070eed5203de3fe assets\firereborn\models\item\inferium_boots_diamond_trim.json
+e6f0ec55a554a9dc289efe1406478a03c3dc3091 assets\firereborn\models\item\infernum_armor_trim_smithing_template.json
 0120a15110ac0c7b12add54ba8f3534084381807 assets\firereborn\models\item\inferium_ore.json
 0a766b3bdc7a70258f1b89a80f92d417b92554c0 assets\firereborn\models\block\burner_block.json
 b49e7cc21d2542ba89c90362928f2e5de2b584b9 assets\firereborn\models\item\inferium_leggings_gold_trim.json

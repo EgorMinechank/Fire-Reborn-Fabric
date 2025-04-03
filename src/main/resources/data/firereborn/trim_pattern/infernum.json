@@ -1,0 +1,8 @@
+{
+  "asset_id": "firereborn:infernum",
+  "decal": false,
+  "description": {
+    "translate": "trim_patterns.firereborn.infernum"
+  },
+  "template_item": "firereborn:infernum_armor_trim_smithing_template"
+}
