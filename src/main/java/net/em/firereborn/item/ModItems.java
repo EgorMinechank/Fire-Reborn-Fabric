@@ -68,16 +68,63 @@ public class ModItems {
 
     public static final Item INFERIUM_HELMET = registerItem("inferium_helmet",
             new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    if(Screen.hasAltDown()) {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor.alt.down"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
     public static final Item INFERIUM_CHESTPLATE = registerItem("inferium_chestplate",
             new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    if(Screen.hasAltDown()) {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor.alt.down"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
     public static final Item INFERIUM_LEGGINGS = registerItem("inferium_leggings",
             new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    if(Screen.hasAltDown()) {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor.alt.down"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
     public static final Item INFERIUM_BOOTS = registerItem("inferium_boots",
             new ModArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    if(Screen.hasAltDown()) {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor.alt.down"));
+                    } else {
+                        tooltip.add(Text.translatable("tooltip.firereborn.inferium_armor"));
+                    }
+
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Item INFERIUM_HORSE_ARMOR = registerItem("inferium_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.INFERIUM_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
 
 

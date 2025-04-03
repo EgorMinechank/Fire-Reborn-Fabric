@@ -37,6 +37,8 @@ public class ModItemGroups {
                         entries.add(ModItems.INFERIUM_LEGGINGS);
                         entries.add(ModItems.INFERIUM_BOOTS);
 
+                        entries.add(ModItems.INFERIUM_HORSE_ARMOR);
+
 
                         entries.add(ModBlocks.INFERIUM_BLOCK);
                         entries.add(ModBlocks.RAW_INFERIUM_BLOCK);

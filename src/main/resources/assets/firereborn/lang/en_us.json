@@ -20,6 +20,8 @@
   "item.firereborn.inferium_leggings": "Inferium Leggings",
   "item.firereborn.inferium_boots": "Inferium Boots",
 
+  "item.firereborn.inferium_horse_armor": "Inferium Horse Armor",
+
 
   "block.firereborn.inferium_block": "Inferium Block",
   "block.firereborn.raw_inferium_block": "Block of Raw Inferium",
@@ -60,5 +62,7 @@
   "tooltip.firereborn.fire_apple": "Don't bite! Press §e[Alt]§r for technical information.",
   "tooltip.firereborn.fire_apple.alt.down": "Gives §6§l§ofire resistance§r effect for §c30 seconds§r.",
   "tooltip.firereborn.hot_coal": "Very hot! Don't get §6burned§r! Press §e[Alt]§r for technical information.",
-  "tooltip.firereborn.hot_coal.alt.down": "Melts §c16§r items(lit for §c3200§r ticks)"
+  "tooltip.firereborn.hot_coal.alt.down": "Melts §c16§r items(lit for §c3200§r ticks)",
+  "tooltip.firereborn.inferium_armor.alt.down": "Gives effects of §e§l§oHast§r and §l§loGlowing§r if you in full set of armor.",
+  "tooltip.firereborn.inferium_armor": "Very §6hot§r but you don't survive in fire! Press §e[Alt]§r for technical information."
 }
