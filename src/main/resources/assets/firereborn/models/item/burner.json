@@ -2,5 +2,13 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "firereborn:item/burner"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "firereborn:used": 1
+      },
+      "model": "firereborn:item/burner_used"
+    }
+  ]
 }
