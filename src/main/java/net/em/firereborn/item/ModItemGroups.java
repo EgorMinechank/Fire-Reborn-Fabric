@@ -32,6 +32,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.INFERIUM_HAMMER);
 
+                        entries.add(ModItems.INFERIUMED_BOW);
+
                         entries.add(ModItems.INFERIUM_HELMET);
                         entries.add(ModItems.INFERIUM_CHESTPLATE);
                         entries.add(ModItems.INFERIUM_LEGGINGS);

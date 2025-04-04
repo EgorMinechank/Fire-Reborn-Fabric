@@ -49,7 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HOT_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.FIRE_APPLE, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.BURNER, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.BURNER, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.INFERIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.INFERIUM_PICKAXE, Models.HANDHELD);

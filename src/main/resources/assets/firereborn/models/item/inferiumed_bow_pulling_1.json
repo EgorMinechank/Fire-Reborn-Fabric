@@ -1,0 +1,6 @@
+{
+    "parent": "firereborn:item/inferiumed_bow",
+    "textures": {
+        "layer0": "firereborn:item/inferiumed_bow_pulling_1"
+    }
+}

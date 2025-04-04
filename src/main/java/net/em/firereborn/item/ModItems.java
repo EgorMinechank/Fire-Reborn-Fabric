@@ -130,6 +130,9 @@ public class ModItems {
     public static final Item INFERNUM_SMITHING_TEMPLATE = registerItem("infernum_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(FireReborn.MOD_ID, "infernum"), FeatureFlags.VANILLA));
 
+    public static final Item INFERIUMED_BOW = registerItem("inferiumed_bow",
+            new BowItem(new Item.Settings().maxDamage(960)));
+
 
 
     private static Item registerItem(String name, Item item) {
