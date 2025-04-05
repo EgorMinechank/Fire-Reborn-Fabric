@@ -72,5 +72,8 @@
 
 
   "trim_pattern.firereborn.infernum": "Infernum Armor Trim",
-  "trim_material.firereborn.inferium": "Inferium Material"
+  "trim_material.firereborn.inferium": "Inferium Material",
+
+
+  "event.firereborn.livingDamageEvent": "You are seriously?!"
 }

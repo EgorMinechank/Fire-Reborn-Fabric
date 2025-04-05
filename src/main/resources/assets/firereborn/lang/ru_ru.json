@@ -72,5 +72,8 @@
 
 
   "trim_pattern.firereborn.infernum": "Отделка Инфернум",
-  "trim_material.firereborn.inferium": "Инфериумная"
+  "trim_material.firereborn.inferium": "Инфериумная",
+
+
+  "event.firereborn.livingDamageEvent": "Как?!"
 }
